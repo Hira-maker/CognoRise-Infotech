@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+
+        <!-- Input fields for weight and height -->
+        <div class="input-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight" required>
+        </div>
+
+        <div class="input-group">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter your height" required>
+        </div>
+
+        <button id="calculateBtn">Calculate BMI</button>
+
+        <!-- Display the BMI result and category -->
+        <div class="result" id="result-container">
+            <h2>Your BMI: <span id="bmiResult">0.00</span></h2>
+            <h3 id="bmiCategory">Category: Not calculated yet</h3>
+        </div>
+    </div>
+
+    <!-- This script tag should be at the bottom of the body -->
+    <script src="task3.js"></script>
+</body>
+</html>
