@@ -1,0 +1,1 @@
+This repository contains web development tasks completed during my internship at Cognorise Info Tech. The focus of these tasks is to build and optimize user-friendly web applications, applying best practices in front-end and back-end development.
