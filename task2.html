@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="countdown-container">
+        <h1>Countdown Timer</h1>
+        <div id="countdown">
+            <div class="time-box">
+                <span id="days"></span>
+                <p>Days</p>
+            </div>
+            <div class="time-box">
+                <span id="hours"></span>
+                <p>Hours</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes"></span>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds"></span>
+                <p>Seconds</p>
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="target-date">Set Target Date and Time:</label>
+            <input type="datetime-local" id="target-date">
+            <button id="startCountdownBtn">Start Countdown</button>
+        </div>
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+</html>
